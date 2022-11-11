@@ -185,6 +185,12 @@ call s:h("VisualNOS", { "bg": s:visual_grey }) " Visual mode selection when vim 
 call s:h("WarningMsg", { "fg": s:yellow }) " warning messages
 call s:h("WildMenu", { "fg": s:black, "bg": s:blue }) " current match in 'wildmenu' completion
 
+call s:h("DiagnosticError", { "fg": s:red }) " Error
+call s:h("DiagnosticWarning", { "fg": s:yellow }) " Warning
+call s:h("DiagnosticInfo", { "fg": s:blue }) " Info
+call s:h("DiagnosticHint", { "fg": s:green}) " Hint
+call s:h("Identifier", { "fg": s:purple }) " Identifier
+
 " }}}
 
 " Language-Specific Highlighting {{{
