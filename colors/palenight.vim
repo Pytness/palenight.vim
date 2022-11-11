@@ -189,7 +189,8 @@ call s:h("DiagnosticError", { "fg": s:red }) " Error
 call s:h("DiagnosticWarning", { "fg": s:yellow }) " Warning
 call s:h("DiagnosticInfo", { "fg": s:blue }) " Info
 call s:h("DiagnosticHint", { "fg": s:green}) " Hint
-call s:h("Identifier", { "fg": s:purple }) " Identifier
+call s:h("DiagnosticDefault", { "fg": s:blue_purple}) " Test Error
+call s:h("DiagnosticTest", { "fg": s:purple }) " Test
 
 " }}}
 
