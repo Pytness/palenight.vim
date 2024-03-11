@@ -192,6 +192,8 @@ call s:h("DiagnosticHint", { "fg": s:green}) " Hint
 call s:h("DiagnosticDefault", { "fg": s:blue_purple}) " Test Error
 call s:h("DiagnosticTest", { "fg": s:purple }) " Test
 
+call s:h("FloatTitle", { "fg": s:white, "bg": s:black}) " Test Error
+call s:h("FloatBorder", { "fg": s:white, "bg": s:black }) " Test
 " }}}
 
 " Language-Specific Highlighting {{{
